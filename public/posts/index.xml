@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on lyttle software services</title>
+    
+    
+    
+    <link>https://rlyttle.github.io/posts/</link>
+    <description>Recent content in Posts on lyttle software services</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright Richard Lyttle 2020</copyright>
+    <lastBuildDate>Thu, 28 May 2020 19:16:54 +0100</lastBuildDate>
+    
+	<atom:link href="https://rlyttle.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angular 9 Bundle Size Analysis</title>
+      <link>https://rlyttle.github.io/posts/angular-9-bundle-size-analysis/</link>
+      <pubDate>Thu, 28 May 2020 19:16:54 +0100</pubDate>
+      
+      <guid>https://rlyttle.github.io/posts/angular-9-bundle-size-analysis/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          I recently had to perform bundle analysis on an angular project to track down an issue causing increased bundle size, leading to improved efficiency of the app initialisation following optimisation of associated libraries and SCSS.
+Install webpack-bundle-analyser npm i webpack-bundle-analyzer --save-dev Build the angular project stats JSON ng build --prod --stats-json Analyse the stats JSON npx webpack-bundle-analyzer dist/&amp;lt;PROJECT-NAME&amp;gt;/stats.json This starts a web server locally providing a size analysis of different components within the angular bundle, as seen below
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
